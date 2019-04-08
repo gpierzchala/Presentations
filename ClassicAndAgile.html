@@ -33,10 +33,14 @@
 
 					<img src="./assets/images/agil-vs-waterfall.jpg" />
 
-					<p style="font-size:15px; font-weight: 600; position: absolute; right: 0; bottom: -50px">
+					<img src="assets/images/me.JPEG" height="150px" style="float:right" />
+
+					<p
+						style="font-size:15px; font-weight: 600; position: absolute; right: 0; bottom: -50px; text-align:right;">
+
 						by Grzegorz
-						Pierzchala <br/>
-						<a href="mailto:g_pierzchala@outlook.com">g_pierzchala@outlook.com</a> <br/>
+						Pierzchala <br />
+						<a href="mailto:g_pierzchala@outlook.com">g_pierzchala@outlook.com</a> <br />
 						+48 694 363 612
 					</p>
 				</section>
@@ -327,7 +331,7 @@
 			</section>
 
 			<section>
-				Who's the boss? <br/>
+				Who's the boss? <br />
 				<img src="./assets/images/agile vs classic.jpg" />
 			</section>
 
@@ -358,11 +362,23 @@
 		// - https://github.com/hakimel/reveal.js#configuration
 		// - https://github.com/hakimel/reveal.js#dependencies
 		Reveal.initialize({
-			dependencies: [
-				{ src: 'plugin/markdown/marked.js' },
-				{ src: 'plugin/markdown/markdown.js' },
-				{ src: 'plugin/notes/notes.js', async: true },
-				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
 			]
 		});
 	</script>
