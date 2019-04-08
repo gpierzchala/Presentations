@@ -1,0 +1,21 @@
+{
+  "name": "reveal.js",
+  "version": "3.7.0",
+  "main": [
+    "js/reveal.js",
+    "css/reveal.css"
+  ],
+  "homepage": "",
+  "license": "",
+  "description": "",
+  "authors": [],
+  "dependencies": {
+    "headjs": "~1.0.3"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
